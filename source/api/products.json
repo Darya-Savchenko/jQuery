@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Vulkan",
+    "price": 15.00,
+    "id": "001",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus.",
+    "img": "source/img/menu/2-vulkan-900h600.jpg.webp"
+    },
+  {
+    "title": "Unagi kranch",
+    "price": 20.00,
+    "id": "002",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus.",
+    "img": "source/img/menu/50-unagi-kranch-219-grn.jpg.webp"
+  },
+  {
+    "title": "Spring-fish",
+    "price": 20.00,
+    "id": "003",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus.",
+    "img": "source/img/menu/93-spring-fish-165-grn.jpg.webp"
+  },
+  {
+    "title": "Shrimp",
+    "price": 17.00,
+    "id": "004",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus.",
+    "img": "source/img/menu/127-krevetkovi-kulki-199.jpg.webp"
+  },
+  {
+    "title": "Filadelfia Light",
+    "price": 7.00,
+    "id": "005",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus.",
+    "img": "source/img/menu/filadelfija-lajt.jpg.webp"
+  },
+  {
+    "title": "Unagi cheese",
+    "price": 14.00,
+    "id": "006",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, arcu et rutrum finibus, ex quam bibendum felis, ut pretium mauris libero sed tellus.",
+    "img": "source/img/menu/unagi-cheese.jpg.webp"
+  }
+]

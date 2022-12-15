@@ -1,0 +1,51 @@
+.popup__call {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 50;
+  .popup__call__container {
+    padding: 25px;
+    background-color: white;
+    border-radius: 16px;
+    min-width: 250px;
+    position: relative;
+    .popup__call__response{
+      padding-top: 10px;
+    }
+    .popup__call__form {
+      display: flex;
+      flex-direction: column;
+      .popup__call__input{
+        border: 1px solid black;
+        margin: 5px 0;
+        height: 30px;
+        border-radius: 3px;
+      }
+      .popup__call__comment{
+        border: 1px solid black;
+        margin: 5px 0;
+        height: 60px;
+        border-radius: 3px;
+      }
+      .call__submit{
+        border: 2px solid orange;
+        background-color: orange;
+        padding: 10px 15px;
+        color: white;
+        transition: 0.2s;
+        border-radius: 3px;
+        &:hover{
+          background-color: white;
+          color: black;
+          transition: 0.2s;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.popup__add-item-shopping-cart {
+  position: fixed;
+  top: 15px;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+  .popup__add-item-shopping-cart__container {
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    min-width: 250px;
+    position: relative;
+    box-shadow: 0 4px 30px 7px rgba(0,0,0,0.5);
+    .popup__add-item-shopping-cart__content{
+      padding: 10px;
+    }
+  }
+}

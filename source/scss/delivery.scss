@@ -1,0 +1,23 @@
+.delivery__info{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  img{
+    width: 40%;
+    @include tablet{
+      width: 70%;
+    }
+  }
+  .office-hours__title{
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .office-hours{
+    padding-bottom: 15px;
+  }
+  .office-hours__type{
+    padding: 15px;
+    font-weight: 500;
+  }
+}

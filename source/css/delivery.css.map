@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oBAAoB;EAClB,OAAO,EAAE,IAAI",
+"sources": ["../scss/delivery.scss"],
+"names": [],
+"file": "delivery.css"
+}

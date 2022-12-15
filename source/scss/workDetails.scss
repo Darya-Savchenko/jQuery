@@ -1,0 +1,31 @@
+.work-details__container{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+  img{
+    width: 100px;
+    margin-right: 10px;
+    @include tablet{
+      width: 60px;
+    }
+    @include phone{
+      display: none;
+    }
+  }
+  .details__item{
+    display: flex;
+    margin: 15px;
+    text-align: start;
+    @include phone{
+      text-align: center;
+    }
+    .details__item__title{
+      color: orange;
+      font-weight: 500;
+      font-size: 24px;
+      padding-bottom: 5px;
+    }
+  }
+}

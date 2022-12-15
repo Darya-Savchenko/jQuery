@@ -1,0 +1,46 @@
+.menu__container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  @include tablet{
+    flex-direction: column;
+  }
+  .menu__item{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    max-width: 25%;
+    box-shadow: 0 0 25px 5px rgba(0,0,0,0.4);
+    img{
+      max-width: 99%;
+    }
+    @include tablet{
+      max-width: 75%;
+    }
+  }
+  .menu__item__title{
+    font-weight: 500;
+    font-size: 24px;
+    padding: 15px 0;
+  }
+  .menu__item__price{
+    font-size: 24px;
+    padding: 15px 0;
+  }
+  .menu__item__button{
+    padding: 20px 30px;
+    background-color: orange;
+    color: white;
+    max-width: 100px;
+    &:hover{
+      background-color: lighten(orange, 7.5%);
+    }
+    &:active{
+      background-color: lighten(orange, 15%);
+    }
+  }
+}

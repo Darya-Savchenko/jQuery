@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/source/css/style.css">
+    <script src="https://kit.fontawesome.com/86aead6b70.js" crossorigin="anonymous"></script>
+    <title>Roll Delivery</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="header__container">
+            <div class="header__menu__burger">
+                <span></span>
+            </div>
+            <nav class="header__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#menu" class="menu__link">menu</a></li>
+                    <li class="menu__item"><a href="#delivery" class="menu__link">delivery</a></li>
+                    <li class="menu__item"><a href="#contact" class="menu__link">Contact Us</a></li>
+                </ul>
+            </nav>
+            <a href="#preview" class="header__logo">r<span>o</span>lls r<span>oo</span>m</a>
+            <div class="buttons__container">
+                <div class="buttons__number">260-11-11</div>
+                <button class="buttons__call-back button__header">BOOK A CALL</button>
+                <button class="buttons__shoppingCart button__header">SHOPPING CART</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main__container">
+            <section class="preview" id="preview">
+                <div class="preview__container">
+                    <h1 class="preview__title">Premium rolls delivery</h1>
+                    <div class="preview__text">Delicious rolls with delivery around the city</div>
+                </div>
+            </section>
+            <section class="work-details">
+                <div class="work-details__container details">
+                    <div class="details__item">
+                        <img src="source/img/workDetails/clock.png">
+                        <div class="details__item__container">
+                            <div class="details__item__title">take orders</div>
+                            <div class="details__item__text">
+                                <p>Mon-Fri: 9:00-23:45</p>
+                                <p>Sat-Sun: 9:00-01:45</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="details__item">
+                        <img src="source/img/workDetails/delivery.png">
+                        <div class="details__item__container">
+                            <div class="details__item__title">free delivery</div>
+                            <div class="details__item__text">
+                                <p>In the center: with orders of $25 or more</p>
+                                <p>To areas of 10 km or more: when ordering from $45</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="menu">
+                <div class="section__title" id="menu">MENU</div>
+                <div class="menu__container">
+                </div>
+            </section>
+            <section class="delivery">
+                <div class="delivery__container">
+                    <div class="section__title" id="delivery">DELIVERY</div>
+                    <div class="delivery__info">
+                        <div class="office-hours">
+                            <div class="office-hours__title">Office hours</div>
+                            <div class="office-hours__type">delivery and self-delivery:</div>
+                            <div class="timeline">Mon-Fri: 9:00-23:45</div>
+                            <div class="timeline">Mon-Fri: 9:00-01:45</div>
+                            <div class="office-hours__type">order acceptance:</div>
+                            <div class="timeline">Mon-Fri: 9:00-00:00</div>
+                            <div class="timeline">Mon-Fri: 9:00-02:00</div>
+                        </div>
+                        <img src="source/img/delivery/delivery.avif">
+                    </div>
+                </div>
+            </section>
+            <section class="contact">
+                <div class="contact__container">
+                    <div class="section__title" id="contact">CONTACT</div>
+                    <div class="contact__items">
+                        <div class="contact__item">
+                            <i class="fa-solid fa-phone fa-5x"></i>
+                            <div class="contact__item__title">order</div>
+                            <div class="contact__item__description">our phone number</div>
+                            <div class="contact__item__details">260-11-11</div>
+                        </div>
+                        <div class="contact__item">
+                            <i class="fa-solid fa-location-pin fa-5x"></i>
+                            <div class="contact__item__title">come to us</div>
+                            <div class="contact__item__description">address</div>
+                            <div class="contact__item__details">
+                                <p>Mon-Fri: 9:00-00:00</p>
+                                <p>Mon-Fri: 9:00-02:00</p>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <i class="fa-solid fa-envelope fa-5x"></i>
+                            <div class="contact__item__title">do you have any questions?</div>
+                            <div class="contact__item__description">email us</div>
+                            <div class="contact__item__details">email@email.com</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <div class="popups__inner">
+        <section class="popup__call">
+            <div class="popup__call__container">
+                <div class="popup__call__close close"></div>
+                <div class="popup__call__response">Thank you, we will call you back shortly</div>
+                <div class="section__title">BOOK A CALL</div>
+                <form action="#" method="post" enctype="multipart/form-data" class="popup__call__form">
+                    <input tabindex="1" id="name" type="text" name="name" class="input"
+                           placeholder="  Name"
+                           value="" required>
+                    <input tabindex="2" id="tel" type="tel" name="tel" class="input"
+                           placeholder="  Telephone"
+                           value="" required>
+                    <textarea tabindex="3" id="comment" name="comment" placeholder="  Comment"
+                              class="popup__call__comment"></textarea>
+                    <input type="submit" class="call__submit button" value="Submit">
+                </form>
+            </div>
+        </section>
+        <section class="popup__shoppingCart">
+            <div class="popup__shoppingCart__container">
+                <div class="popup__shoppingCart__close close"></div>
+                <div class="popup__shoppingCart__order-except">your order is accepted</div>
+                <div class="section__title">SHOPPING CART <i class="fa-solid fa-bag-shopping fa-2x"></i></div>
+                <div class="popup__shoppingCart__no-items">No items in the Shopping Cart</div>
+                <div class="popup__shoppingCart__items"></div>
+                <div class="popup__shoppingCart__total"></div>
+                <div class="popup__shoppingCart__form__container">
+                    <div class="popup__shoppingCart__form__title">ORDER DATA</div>
+                    <form action="#" method="post" enctype="multipart/form-data" class="popup__shoppingCart__form">
+                        <input tabindex="1" id="name__shoppingCart" type="text" name="name" class="input"
+                               placeholder="  Name"
+                               value="" required>
+                        <input tabindex="2" id="tel__shoppingCart" type="tel" name="tel" class="input"
+                               placeholder="  Telephone"
+                               value="" required>
+                        <input tabindex="2" id="email__shoppingCart" type="email" name="email" class="input"
+                               placeholder="  Telephone"
+                               value="" required>
+                        <input type="submit" class="shoppingCart__submit button" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="popup__add-item-shopping-cart">
+            <div class="popup__add-item-shopping-cart__container">
+                <div class="popup__add-item-shopping-cart__content">product successfully added to the shopping cart
+                </div>
+                <button class="buttons__shoppingCart button">SHOPPING CART</button>
+            </div>
+        </section>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="module" src="/source/js/main.js"></script>
+</body>
+</html>

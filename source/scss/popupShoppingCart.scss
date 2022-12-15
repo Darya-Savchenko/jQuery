@@ -1,0 +1,90 @@
+.popup__shoppingCart {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 50;
+  height: 100%;
+  width: 100%;
+  overflow-y:auto;
+  overflow-x: hidden;
+  .popup__shoppingCart__container {
+    padding: 25px;
+    background-color: white;
+    border-radius: 16px;
+    height: auto;
+    position: relative;
+    margin: 50px;
+    .popup__shoppingCart__total{
+      display: flex;
+      justify-content: end;
+      border-top: 1px solid orange;
+      padding-top: 7px;
+      font-size: 24px;
+    }
+    .popup__shoppingCart__items{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .shoppingCart__item{
+        margin: 10px;
+        display: flex;
+        justify-content: space-between;
+        .shoppingCart__item__info{
+          display: flex;
+          .shoppingCart__item__img img{
+            max-width: 150px;
+            @include phone{
+              max-width: 100px;
+            }
+          }
+          .shoppingCart__title__container{
+            margin-left: 5px;
+          }
+          .shoppingCart__title{
+            font-weight: 500;
+          }
+          .shoppingCart__item__quantity__container{
+            margin-top: 5px;
+            display: flex;
+            gap: 5px;
+            .shoppingCart__item__button{
+              background-color: orange;
+              color: white;
+              padding: 5px 7px;
+              border: 1px solid orange;
+              transition: 0.3s;
+              border-radius: 3px;
+              &:hover{
+                background-color: white;
+                color: black;
+                transition: 0.3s;
+              }
+            }
+          }
+        }
+      }
+    }
+    .popup__shoppingCart__form__title{
+      font-weight: 500;
+      font-size: 24px;
+      padding-bottom: 10px;
+    }
+    .popup__shoppingCart__form{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      .popup__shoppingCart__input{
+        border: 1px solid black;
+        margin: 5px 0;
+        height: 30px;
+        border-radius: 3px;
+      }
+    }
+  }
+}
